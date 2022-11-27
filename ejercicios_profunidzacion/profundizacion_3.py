@@ -64,3 +64,66 @@ pregunta_5 = "¿Cuál es la capital de Venezuela?"
 respuesta_5 = "caracas"
 
 # Empezar aquí la resolución del ejercicio
+
+print(f'Pregunta 1:\n'
+f'{pregunta_1}')
+resp = str.lower(input("Escriba su respuesta:\n"))
+
+if resp == respuesta_1:
+    puntaje += 10
+    print(f'Correcto! Tu puntuacion es {puntaje}')
+else:
+    print(f'Error! La respuesta era: {respuesta_1}. Tu puntuacion es {puntaje}')
+
+    
+print(f'Pregunta 2:\n'
+f'{pregunta_2}')
+resp = str.lower(input("Escriba su respuesta:\n"))
+
+if resp == respuesta_2:
+    puntaje += 10
+    print(f'Correcto! Tu puntuacion es {puntaje}')
+else:
+    print(f'Error! La respuesta era: {respuesta_2}. Tu puntuacion es {puntaje}')
+
+
+print(f'Pregunta 3:\n'
+f'{pregunta_3}')
+resp = str.lower(input("Escriba su respuesta:\n"))
+
+if resp == respuesta_3:
+    puntaje += 10
+    print(f'Correcto! Tu puntuacion es {puntaje}')
+else:
+    print(f'Error! La respuesta era: {respuesta_3}. Tu puntuacion es {puntaje}')
+
+
+print(f'Pregunta 4:\n'
+f'{pregunta_4}')
+resp = str.lower(input("Escriba su respuesta:\n"))
+
+if resp == respuesta_4:
+    puntaje += 10
+    print(f'Correcto! Tu puntuacion es {puntaje}')
+else:
+    print(f'Error! La respuesta era: {respuesta_4}. Tu puntuacion es {puntaje}')
+
+
+print(f'Pregunta 5:\n'
+f'{pregunta_5}')
+resp = str.lower(input("Escriba su respuesta:\n"))
+
+if resp == respuesta_5:
+    puntaje += 10
+    print(f'Correcto! Tu puntuacion es {puntaje}')
+else:
+    print(f'Error! La respuesta era: {respuesta_5}. Tu puntuacion es {puntaje}')
+
+
+print(f'Juego terminado!')
+if puntaje >= 50:
+    print(f'Felicitaciones, obtuviste el puntaje maximo! {puntaje} puntos!')
+elif puntaje >= 10:
+    print(f'Su puntuacion final es: {puntaje}.')
+else:
+    print(f'Su puntaje es: {puntaje}. Suerte la proxima!')

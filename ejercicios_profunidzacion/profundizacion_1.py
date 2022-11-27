@@ -42,3 +42,17 @@ Alumno:
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = int(input(f'Ingrese el primer numero:'))
+numero_2 = int(input(f'Ingrese el segundo numero:'))
+
+resta = numero_1 - numero_2
+
+if resta > 0:
+    res_1 = 1
+elif resta < 0:
+    res_1 = 2
+else:
+    res_1 = 3
+
+print(f'res_1 es: {res_1}')

@@ -16,7 +16,7 @@
 # Verificar la calificación de un estudiante según su
 # puntaje en un examen
 puntaje = 70
-
+puntaje = int(input('El puntaje del examen es:'))
 # Alumno:
 # Deberá crear una serie de considiconales
 # con if y elif de forma tal de cargar en
@@ -36,3 +36,16 @@ nota = ""
 # Puede consultar el ejemplo de clase 2 como referencia
 
 # Imprimir en pantalla la variable nota
+
+if puntaje >= 90:
+    nota = 'A'
+elif puntaje >= 80:
+    nota = 'B'
+elif puntaje >= 70:
+    nota = 'C'
+elif puntaje >= 60:
+    nota = 'D'
+else:
+    nota = 'F'
+
+print(f'La nota es: {nota}')

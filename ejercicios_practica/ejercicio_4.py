@@ -32,5 +32,15 @@ cantidad_numeros_positivos = 0
 
 # Al finalizar, imprimir en pantalla la variable cantidad_numeros_positivos
 
+numero_1 = int(input('Ingrese primer numero entero:'))
+numero_2 = int(input('Ingrese segundo numero entero:'))
+numero_3 = int(input('Ingrese tercer numero entero:'))
 
+if numero_1 > 0:
+    cantidad_numeros_positivos += 1
+if numero_2 > 0:
+    cantidad_numeros_positivos += 1
+if numero_3 > 0:
+    cantidad_numeros_positivos += 1
 
+print(f'La cantidad de numeros positivos es: {cantidad_numeros_positivos}')
